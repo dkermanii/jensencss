@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    height: auto;
+    padding: 10px;
+    background: linear-gradient(rgb(190, 159, 159), white);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+    margin: 10px;
+    color: #032646;
+    background: #cacaca;
+    padding: 2px;
+    border: solid 2px rgb(19, 19, 71);
+    border-radius: 10px;
+}
+header h1 {
+    min-height: 50px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.content {  
+    position: absolute;
+    bottom: 750px;
+    left: 25%;
+    font-family: monospace;
+
+}
+
+
+.titelhuvud kontaktformular{
+    font-size: large;
+    text-align: center;
+    
+    }
+    
+    .titelhuvud gdpr{
+    
+        font-size: medium;
+        color: rgb(58, 8, 8);
+        font-style: italic;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"],
+    input[type="message"],
+    select {
+
+        display: flex;
+width: 700px;
+margin: 10px;
+padding: 10px;
+border: rgb(7, 7, 78) solid 2px;
+border-radius: 20px;
+}
+
+textarea {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: rgb(7, 7, 78) solid 2px;
+    border-radius: 20px;
+    margin-left: 15px;
+
+
+}
+/* Navigation */
+.sidebar {
+    margin-left: 10px;
+    padding: 0px;
+    width: 200px;
+    background-color: #cacaca;
+    height: 100%;
+    overflow: auto;
+    border: solid 1px rgb(7, 7, 78);
+    border-radius: 2px;
+  }
+  
+  /* Sidebar länkar */
+  .sidebar a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border: solid 1px rgb(7, 7, 78);
+    border-radius: 2px;
+  }
+  
+  /* Aktiva länkar */
+  .sidebar a.active {
+    background: linear-gradient(#032646,#7990a5);
+    color: white;
+  }
+  
+  /* Hover */
+  .sidebar a:hover:not(.active) {
+    background: linear-gradient(#98a7b6, #dfe6ec);
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 20px;
+    padding: 1px 16px;
+    height: 10px;
+  }
